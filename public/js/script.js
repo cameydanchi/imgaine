@@ -65,7 +65,23 @@ const tweet1 = {
   }
   
 
-  
+  //string concat
+const firstname = 'Camey';
+const lastname = 'Brown';
+firstname +' '+lastname ;
+//  template literal
+ 
+`${firstname.trim()} ${lastname.trim()}`;
+
+// string methods
+firstname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+firstname.toUpperCase();
+
+// firstname.trim().charAt(3)
+`${firstname.trim().charAt(0)}${lastname.trim().chatAt(0)}`;
+
+
 
 
 
