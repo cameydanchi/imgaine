@@ -82,6 +82,31 @@ firstname.toUpperCase();
 `${firstname.trim().charAt(0)}${lastname.trim().chatAt(0)}`;
 
 
+const participants = [];
+function addParticipant(email){
+  if (!email){
+    return 'email not provided';
+  }
+  // check if email if email is valid
+  if (!email.includes('@')){
+    return 'invalid email provided';
+  }
+
+  // add email to the list to the participant:
+  participants.push(email);
+  //notify them via mail
+  // return a response
+  return 'Participant added sucessfully' ;
+}
+addParticipant("camey@kms ");
+
+
+
+
+// arrays in js 
+const alphabets = ['a','b','c','d'];
+alphabets.join(' ');
+
 
 
 
