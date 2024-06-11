@@ -106,6 +106,56 @@ addParticipant("camey@kms ");
 // arrays in js 
 const alphabets = ['a','b','c','d'];
 alphabets.join(' ');
+// arrays in js 
+const alphabets = ['a','b','c','d'];
+alphabets.join(' ');
+
+
+
+// write a function that will take a user with first name lastname and retuurn fullname
+
+const user = {firstname:'kofi',
+              lastname: 'Chino',
+             }
+
+function fullname(user) {
+  
+ return {
+   ...user,
+   fullname: `${user.firstname} ${user.lastname}`
+ }
+}
+
+fullname(user);
+/// ARRAY MAP
+const users = [
+  {firstname: 'kofi', lastname:'chino'},
+  {firstname: 'kwame', lastname:'chino'},
+  {firstname: 'kojo', lastname:'chino'},
+  {firstname: 'kwabena', lastname:'chino'},
+]
+users.map(fullname);
+
+
+
+// map and return squares of number
+
+
+
+function square(number){
+  return number ** 2;
+}
+
+
+const numbers = [0,1,2,3,4,5]
+numbers.map(square);
+
+// filter and return even numbers
+function even(number){
+  return number % 2 === 0;
+}
+numbers.filter(even);
+
 
 
 
