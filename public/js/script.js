@@ -103,12 +103,12 @@ addParticipant("camey@kms ");
 
 
 
-// arrays in js 
-const alphabets = ['a','b','c','d'];
-alphabets.join(' ');
-// arrays in js 
-const alphabets = ['a','b','c','d'];
-alphabets.join(' ');
+// // arrays in js 
+// const alphabets = ['a','b','c','d'];
+// alphabets.join(' ');
+// // arrays in js 
+// const alphabets = ['a','b','c','d'];
+// alphabets.join(' ');
 
 
 
