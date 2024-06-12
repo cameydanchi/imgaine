@@ -155,6 +155,37 @@ function even(number){
   return number % 2 === 0;
 }
 numbers.filter(even);
+// write a function that  takes a user name and dateOfBirth and return true if their birthday is taday else false
+const user = {
+  name: 'Camey Brown',
+  dateOfBirth:'6/12/1887',
+};
+
+function birthday(user) {
+  const today = new Date();
+  const birthDate = new Date(user.dateOfBirth);
+   if( today.getMonth() === birthDate.getMonth() && today.getDate() === birthDate.getDate()){
+     return true;
+   } else{
+     return false
+   }
+}
+  
+  birthday(user);
+
+// write a function that  takes a user name and dateOfBirth and return true if their birthday is taday else false
+function check(user) {
+  if (birthday(user)) {
+    return 'Happy Birthday!';
+  } else {
+    return 'Not your day.';
+  }
+}
+
+check(user);
+
+
+
 
 
 
